@@ -20,7 +20,7 @@ export class ProjectsController {
     @UseInterceptors(AnyFilesInterceptor({
         storage: multerGoogleStorage.storageEngine({
             projectId: 'singular-backup-281802',
-            keyFilename: 'AIzaSyABWHJ9xBvqh3Zk8rz4R8mlsus83T2vzLE',
+            keyFilename: 'singular-backup-281802.iam.gserviceaccount.com',
             bucket: 'prueba_gazelook',
             filename: (req, file, cb) => { return cb(null, new Date().toISOString() + file.originalname) }
         })

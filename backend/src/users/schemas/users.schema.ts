@@ -1,7 +1,6 @@
 import { Schema } from "mongoose";
-import { bcrypt } from 'bcryptjs';
+import * as bcrypt from 'bcrypt';
 
-const SALT_WORK_FACTOR = 10;
 
 export const UserSchema = new Schema({
     email: {type: String, index: true, unique: true},
@@ -9,4 +8,7 @@ export const UserSchema = new Schema({
     language:  String
 
 });
+
+
+
 

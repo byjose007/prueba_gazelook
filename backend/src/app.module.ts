@@ -1,16 +1,18 @@
+import { ProjectsModule } from './projects/projects.module';
+import { ProfilesModule } from './profiles/profiles.module';
 import { UsersModule } from './users/users.module';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from "@nestjs/mongoose";
-import { ProductModule } from './product/product.module';
+import { AuthModule } from './auth/auth.module';
+
 
 @Module({
   imports: [
     MongooseModule.forRoot('mongodb://localhost/prueba', {
       useNewUrlParser: true }),
-      ProductModule,
-    UsersModule],
+    UsersModule, ProfilesModule, ProjectsModule],
   controllers: [AppController],
   providers: [AppService],
 })

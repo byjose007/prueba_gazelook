@@ -14,6 +14,7 @@ export class UsersService {
     // Post a single user
     async createUser(createUserDTO: UserDto): Promise<User> {
       const { email, password } = createUserDTO;
+      
       const hashedPassword = await bcrypt.hash(password, 10);  
       const user = new this.userModel({ email, password: hashedPassword });
 

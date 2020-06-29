@@ -1,3 +1,5 @@
+import { User } from './../../users/interfaces/users.interface';
+import { Project } from 'src/projects/interfaces/projects.interface';
 import { Document } from 'mongoose';
 
 export interface Profile extends Document{
@@ -15,5 +17,9 @@ export interface Profile extends Document{
     readonly location: string;
     
     readonly postlCode: string;
+
+    readonly user: User,
+
+    readonly projects : Project[],
 }
 

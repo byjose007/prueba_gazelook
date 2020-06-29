@@ -13,10 +13,11 @@ export class ProjectsController {
     constructor(private readonly projectService: ProjectsService) { }
     foto: any;
 
-    // Add Project: /projects/create
+    // Add Project: /projects/create 
     @Post('/create')
     @ApiResponse({ status: 201, description: 'The record has been successfully created.' })
     @ApiResponse({ status: 403, description: 'Forbidden.' })
+    // upload files google storage
     @UseInterceptors(AnyFilesInterceptor({
         storage: multerGoogleStorage.storageEngine({
             projectId: 'singular-backup-281802',
@@ -71,18 +72,18 @@ export class ProjectsController {
     }
 
 
-    // Upload files
-    @Post('/uploadLocal')
-    @UseInterceptors(AnyFilesInterceptor({
-        storage: diskStorage({
-            destination: './uploads/',
-            filename: (req, file, cb) => { return cb(null, new Date().toISOString() + file.originalname) }
-        })
-    }))
-    save(@UploadedFile() file) {
-        console.log(file, 'files');
-        return;
-    }
+    // Upload files local
+    // @Post('/uploadLocal')
+    // @UseInterceptors(AnyFilesInterceptor({
+    //     storage: diskStorage({
+    //         destination: './uploads/',
+    //         filename: (req, file, cb) => { return cb(null, new Date().toISOString() + file.originalname) }
+    //     })
+    // }))
+    // save(@UploadedFile() file) {
+    //     console.log(file, 'files');
+    //     return;
+    // }
 
 
 

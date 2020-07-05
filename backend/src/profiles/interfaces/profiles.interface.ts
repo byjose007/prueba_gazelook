@@ -1,6 +1,6 @@
-import { User } from './../../users/interfaces/users.interface';
 import { Project } from 'src/projects/interfaces/projects.interface';
 import { Document } from 'mongoose';
+import { User } from 'src/drivers/mongoose/interfaces/users/users.interface';
 
 export interface Profile extends Document{
 

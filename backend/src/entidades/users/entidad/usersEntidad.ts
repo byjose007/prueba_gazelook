@@ -13,7 +13,6 @@ export class UserDto {
     password: string;
     @ApiProperty({enum: Language, enumName: 'Languege' })
     language: Language;
-    
    
 
 }

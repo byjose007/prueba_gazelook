@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
 import { bcrypt } from 'bcryptjs';
-import { UserSchema } from "src/users/schemas/users.schema";
+
 
 const SALT_WORK_FACTOR = 10;
 

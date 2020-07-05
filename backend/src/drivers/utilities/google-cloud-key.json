@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "singular-backup-281802",
+  "private_key_id": "7b383ae21995febe5566d05895bb8af4cf596b14",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvbUjpScjlt7D7\nEGVQYenlAkH9J7AGpqhmxh9YfrtzmFmjKdLWg7vM3LebspOJet9hKyQiKc67rbk7\nxRM/zVP9Pq44JjpUu+0Xi3UB0r5wnUdtcZWISYFrRtc/jPP52ACq18zbND9Hybef\n5IVRJ73hvk/zBJMoiClZPwmBcQTDm4g0ebD53hTm1VTQTKqoWVwtrQTU7Lp8aJKt\nZFKa4EDWlGkMfnMroGK7twJhYO+zVkGkMB9JT2KrNvTFeXiMAxB+mYls5kIdm8gF\nf216hvs98dPSxnPu/9ekJ2SkuX3lEi/ovUAJWRAnZ7EtbgY3HuLpz+zNkB5knzVW\nYipgv2M/AgMBAAECggEAVPPOYDL8F8qZ6SsqdP/FncI3JJookz/3wzVkjp1ot3Tq\ny6oAUSOgOXgVbk/PRL99F3gl2ml2lMpvLnOke7w6VSQaiFRy4P/UtBczxXtCABUa\nNvTPXh2Cj+nRaRQgPjiNMi6pJOorTt9vjf3DVeax/HUGEICBpxoxM+fj+Yw6q2KC\nX8H7/11lUpz5iy4mXqgnWzEF69RfRcKBw+wF4eFAsdd2ZIXCeRGJi54q3i9kOnSv\nbZesfH8ueMAr0d1oKgJQU918s5DnJf2BN0w6CeVySbLNdeM+KMA8wMQlJPirFeQ+\no/8FO7jZeBmt5yy/igxeOF4YWusPWhL4Gw5vScs+6QKBgQDxHaHtPW5bWhISaPPq\nHzT06zky3YgFPiSfT7znJGz5g/ju5s5P2lQW9u0ZDzP2zw5LDH0lxI1oPe+QPEA6\nPMi0+6i6JS0KlrBMkiWzfgeddDkC8O85tjxfKn5hlO/PQNG1kQAe2v82ygjfqR4k\nB4nG6X5cU9R9mFmDT8Vhi7tFAwKBgQC6QZEtrQ0DEvWTXzXUI2wILeuvNbxETEMh\nuCjWRPA0ah6LYpApx7HtJEmzqUHeYQj9mZX3t+q2mRLcQ4VbUhJOO6DHhy0Zf0Bp\nHANdtPhDM0bYkmXvmbmsjyyAWK83WkwjMUocR2FI36PNJWYVk++cbUaMTAzWX4k3\nh+cYs+Q+FQKBgQCGazayw+SaGQSqLsiMZQlo4RnqOYZzJcnU5ucxFSWLlP9acGHk\nMptekhpsNgWKOrSFMlkyjPkofB7qEizcSra57vKJk+AgXxG6Hl/WSRSFux1tflRf\noDDX/SCn1hg7Oq+uwT+H9B8DtG5uAiJDg9BTjChd4H495olAo2AumW+1cQKBgCpL\nbU4z97p0+bMHcc/EY2nQE67rwt63ep8TlKJjcTBV0K3SKe5y3GJ/VQUpMD3xRvtf\nfwCLkQ7536CI7KV6E5IUVEQ62/DoRpYXuGP1DlMkN7hCNkecXt9ie7aBbPhi1ts+\n/BdD1kGYFzgkf/PybfzVi6mcM2YSt7QWdlHTt8apAoGAAnGS9iYNak30dzbvkJrY\nVQwpIpfMhgdRYHH1FHgFXxzNw7morlFF0XtGUtePB8y7Exd8Q1okqY5D5qKYUcL+\n9RAxlkgYneGVX0om+UmqEfq1UgwIXwR0NgZjBV/TP0l8Yx9bPSff9d2FVVkbYKLe\nUhW1y5u0ODBXSNUtvOReNcM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "prueba-gazelook@singular-backup-281802.iam.gserviceaccount.com",
+  "client_id": "106152277965305254035",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/prueba-gazelook%40singular-backup-281802.iam.gserviceaccount.com"
+}

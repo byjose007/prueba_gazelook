@@ -1,7 +1,6 @@
-import { ConfigModule } from '@nestjs/config';
-import { ProjectsModule } from './projects/projects.module';
-import { ProfilesModule } from './profiles/profiles.module';
+import { MediaModule } from './entidades/media/media.module';
 
+import { ConfigModule } from '@nestjs/config';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -10,7 +9,9 @@ import { AuthModule } from './auth/auth.module';
 //config
 import configuration from '../config/config/default';
 import { UsersModule } from './entidades/users/users.module';
-import { UsesCasesUsersModule } from './entidades/users/caso_de_uso/v1/uses-cases.module';
+import { ProjectsModule } from './entidades/projects/projects.module';
+import { ProfilesModule } from './entidades/profiles/profiles.module';
+
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { UsesCasesUsersModule } from './entidades/users/caso_de_uso/v1/uses-case
     UsersModule,
     ProfilesModule,
     ProjectsModule,
+    MediaModule
   ],
   controllers: [AppController],
   providers: [AppService],

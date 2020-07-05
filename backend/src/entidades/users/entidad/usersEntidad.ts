@@ -11,8 +11,9 @@ export class UserDto {
     email: string;
     @ApiProperty()
     password: string;
-    @ApiProperty({enum: Language, enumName: 'Languege' })
+    @ApiProperty( {enum: Language, enumName: 'Languege' })
     language: Language;
+
    
 
 }

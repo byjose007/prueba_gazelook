@@ -2,7 +2,7 @@ import { Schema } from "mongoose";
 import * as bcrypt from 'bcrypt';
 
 const schemaOptions = {
-    timestamps: { createdAt: 'fecha_creacion', updatedAt: 'fecha_actualizacion' },
+    timestamps: { createdAt: 'createdAt', updatedAt: 'updatedAt' },
 } 
 export const UserSchema = new Schema({
     email: {type: String, index: true, unique: true},

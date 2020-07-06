@@ -23,15 +23,26 @@ $ npm run start:prod
 
 ```
 
+## Tecnologías:
+- TypeScript
+- MongoDB.
+- Node JS (Nestjs Framework)
+- Google Cloud Storage
 
-## Api Documentation
+## Arquitectura
+- Clean Architecture
+
+
+## Diagrama de clases
+
+![alt text](https://github.com/byjose007/prueba_gazelook/blob/master/backend/uploads/diagrama.png?raw=true)
+
+## Documentación Api 
 
 ``` 
 $ http://localhost:5000/api/documentation/
 ```
 
-
-## Diagrama de clases
 
 ## Test
 

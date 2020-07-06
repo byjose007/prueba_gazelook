@@ -27,8 +27,11 @@ $ npm run start:prod
 ## Api Documentation
 
 ``` 
-$ http://localhost:3000/api/documentation/
+$ http://localhost:5000/api/documentation/
 ```
+
+
+## Diagrama de clases
 
 ## Test
 

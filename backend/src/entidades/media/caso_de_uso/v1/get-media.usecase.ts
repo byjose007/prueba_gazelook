@@ -21,10 +21,7 @@ export class GetMediaService {
   }
 
 
-  async findOne(email: string): Promise<any> {
-    const media = await this.mediaModel.find({email: email});
-    return media;
-  }
+ 
 
 
 }

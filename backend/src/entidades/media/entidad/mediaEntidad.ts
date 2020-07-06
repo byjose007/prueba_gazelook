@@ -6,7 +6,7 @@ export class MediaDto {
     @ApiProperty({required: true})
     title: string;
     @ApiProperty({required: false})
-    file: string;
+    fileUrl?: string;
 
    
 

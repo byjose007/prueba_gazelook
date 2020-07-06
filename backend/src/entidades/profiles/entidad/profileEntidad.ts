@@ -18,7 +18,7 @@ export class ProfileDto {
     @ApiProperty({required: true})
     postlCode: string;
     @ApiProperty({required: false})
-    idUser: string;
+    user: string;
 
 }
 

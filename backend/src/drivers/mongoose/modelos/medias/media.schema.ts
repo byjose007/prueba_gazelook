@@ -3,7 +3,7 @@ import { Schema } from "mongoose";
 
 export const MediaSchema = new Schema({
      title: String,
-     file: String,
-     project : {type: Schema.Types.ObjectId, ref: 'Project'},
+     fileUrl: { type: String, required: false },
+     idProject : {type: Schema.Types.ObjectId, ref: 'Project'},
 });
 

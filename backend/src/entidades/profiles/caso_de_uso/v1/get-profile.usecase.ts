@@ -21,10 +21,6 @@ export class GetProfileService {
   }
 
 
-  async findOne(email: string): Promise<any> {
-    const profile = await this.profileModel.find({email: email});
-    return profile;
-  }
 
 
 }

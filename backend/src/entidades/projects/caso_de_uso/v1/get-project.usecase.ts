@@ -21,10 +21,4 @@ export class GetProjectService {
   }
 
 
-  async findOne(email: string): Promise<any> {
-    const project = await this.projectModel.find({email: email});
-    return project;
-  }
-
-
 }

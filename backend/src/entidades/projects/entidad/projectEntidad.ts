@@ -8,9 +8,8 @@ export class ProjectDto {
     @ApiProperty({required: false})
     description?: string;
     @ApiProperty({required: true})
-    idPerfil: string;
-    @ApiProperty({type : Array , "default" : []})
-    media?: Array<string>;
+    profile: string;
+
    
 
 }
